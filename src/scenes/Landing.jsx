@@ -60,14 +60,14 @@ const Landing = ({ setSelectedPage }) => {
             Matheos {""}
             <span
               className={`xs:relative xs:text-deep-blue xs:font-semibold z-20
-                    xs:before:content-brush before:absolute before:-left-[25px] 
+                    xs:before:content-brush before:absolute before:-left-[25px] text-red
                     before:-top-[70px] before:z-[-1] 
                     `}
             >
               Belay
             </span>
           </p>
-          <p className={`mt-5 mb-4 text-[23px] text-center md:text-start`}>
+          <p className={`mt-7 mb-4 text-[23px] text-center md:text-start`}>
             Hello! I'm MATHEOS <span className={`text-red`}>BELAY</span>{" "}
           </p>
             <div

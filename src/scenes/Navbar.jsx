@@ -64,7 +64,7 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }) => {
         )}
         {/* MOBILE MENU POP UP */}
         {!isDesktop && isMenuToggled && (
-          <div className={`fixed right-0 bottom-0 h-full bg-blue w-[300px]`}>
+          <div className={`fixed right-0 bottom-2 h-full bg-blue w-[150px] rounded-2xl`}>
             {/* CLOSE ICON  */}
             <div className={`flex justify-end p-12`}>
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -73,7 +73,7 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }) => {
             </div>
             {/* MENU ITEMS */}
             <div
-              className={`flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue `}
+              className={`flex flex-col gap-10 ml-[33%] text-xl text-deep-blue `}
             >
               <Link
                 page="Home"

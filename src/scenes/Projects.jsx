@@ -29,8 +29,7 @@ const Project = ({ title,subtitle }) => {
       bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue
       `}>
         <p className="text-l font-playfair">{title}</p>
-        <p className="mt-2 text-[16px]">
-          {subtitle}</p>
+        <p className="mt-2 text-[16px]">{subtitle}</p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>

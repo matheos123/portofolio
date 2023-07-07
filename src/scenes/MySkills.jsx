@@ -23,7 +23,7 @@ const MySkills = () => {
           }}
         >
           <p className={`font-playfair font-semibold text-4xl mb-5`}>
-            MY <span className={`text-red`}>Skills</span>
+            My <span className={`text-red`}>Skills</span>
           </p>
 
           <LineGradient width="w-2/3" />
@@ -32,6 +32,7 @@ const MySkills = () => {
             <Skills width="w-[60%]"  title={'REACT JS'} percent={'60%'} />
             <Skills width="w-[50%]"  title={'REACT NATIVE'} percent={'50%'} />
             <Skills width="w-[50%]"  title={'TAILWIND CSS'} percent={'50%'} />
+            <Skills width="w-[50%]"  title={'PHP'} percent={'50%'} />
              </div>
         </motion.div>
         <div className={`mt-16 md:mt-0`}>
@@ -45,14 +46,14 @@ const MySkills = () => {
             >
               <img
                 className={`z-10 mt-8`}
-                src="../assets/skills-image.png"
+                src="../assets/Programmer.png"
                 alt="skills"
               />
             </div>
           ) : (
             <img
               className={`z-10`}
-              src="../assets/skills-image.png"
+              src="../assets/Programmer.png"
               alt="skills"
             />
           )}
@@ -81,7 +82,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] " />
           </div>
           <p className="mt-5">
-            I have Experience in front end and mobile application development.
+            I have Experience in Front End Website and Mobile application development and deployment.
           </p>
         </motion.div>
 
