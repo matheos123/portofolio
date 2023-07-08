@@ -27,13 +27,15 @@ const MySkills = () => {
           </p>
 
           <LineGradient width="w-2/3" />
-          <div className={`md:flex flex-col md:justify-between md:gap-7 sm:gap-7  `}>
-            <Skills width="w-[80%]"  title={'HTML&CSS'} percent={'80%'} />
-            <Skills width="w-[60%]"  title={'REACT JS'} percent={'60%'} />
-            <Skills width="w-[50%]"  title={'REACT NATIVE'} percent={'50%'} />
-            <Skills width="w-[50%]"  title={'TAILWIND CSS'} percent={'50%'} />
-            <Skills width="w-[50%]"  title={'PHP'} percent={'50%'} />
-             </div>
+          <div
+            className={`md:flex flex-col md:justify-between md:gap-7 sm:gap-7  `}
+          >
+            <Skills width="w-[80%]" title={"HTML&CSS"} percent={"80%"} />
+            <Skills width="w-[60%]" title={"REACT JS"} percent={"60%"} />
+            <Skills width="w-[50%]" title={"REACT NATIVE"} percent={"50%"} />
+            <Skills width="w-[50%]" title={"TAILWIND CSS"} percent={"50%"} />
+            <Skills width="w-[50%]" title={"PHP"} percent={"50%"} />
+          </div>
         </motion.div>
         <div className={`mt-16 md:mt-0`}>
           {isAboveMediumScreens ? (
@@ -46,14 +48,14 @@ const MySkills = () => {
             >
               <img
                 className={`z-10 mt-8`}
-                src="../assets/Programmer.png"
+                src="../assets/skills-image.png"
                 alt="skills"
               />
             </div>
           ) : (
             <img
               className={`z-10`}
-              src="../assets/Programmer.png"
+              src="../assets/skills-image.png"
               alt="skills"
             />
           )}
@@ -82,7 +84,8 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] " />
           </div>
           <p className="mt-5">
-            I have Experience in Front End Website and Mobile application development and deployment.
+            I have Experience in Front End Website and Mobile application
+            development and deployment.
           </p>
         </motion.div>
 
@@ -132,9 +135,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] " />
           </div>
-          <p className="mt-5">
-            Imagination is key and way to success.
-          </p>
+          <p className="mt-5">Imagination is key and way to success.</p>
         </motion.div>
       </div>
     </div>
