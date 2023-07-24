@@ -1,6 +1,5 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
-import ProgressBar from "../components/ProgressBar";
 import { motion } from "framer-motion";
 import React from "react";
 import Skills from "../components/Skills";

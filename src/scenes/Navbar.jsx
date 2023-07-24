@@ -15,7 +15,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     </AnchorLink>
   );
 };
-const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }) => {
+const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width : 768px)");
   const navbarBackground = isTopOfPage ? "" : "bg-red";
@@ -23,7 +23,9 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-3`}>
       <div className={`flex items-center justify-between mx-auto w-5/6`}>
-        <h4 className={`font-playFair text-3xl font-bold`}>M<span className={`text-blue`}>B</span></h4>
+        <h4 className={`font-playFair text-3xl font-bold`}>
+          M<span className={`text-blue`}>B</span>
+        </h4>
         {/* DEKTOP NAV */}
         {isDesktop ? (
           <div
@@ -57,14 +59,15 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button
-          onClick={()=>setIsMenuToggled(!isMenuToggled)}
-           className={`rounded-full bg-red p-2`}>
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+            className={`rounded-full bg-red p-2`}
+          >
             <img alt="menu-icon" src="../assets/menu-icon.svg" />
           </button>
         )}
         {/* MOBILE MENU POP UP */}
         {!isDesktop && isMenuToggled && (
-          <div className={`fixed right-0 bottom-2 h-full bg-blue w-[150px] rounded-2xl`}>
+          <div className={`fixed right-0 bottom-2 h-full bg-blue w-[150px]`}>
             {/* CLOSE ICON  */}
             <div className={`flex justify-end p-12`}>
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
