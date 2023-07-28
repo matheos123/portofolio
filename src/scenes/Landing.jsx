@@ -28,7 +28,7 @@ const Landing = ({ setSelectedPage }) => {
               className={` transition duration-200 z-10 w-full]
                      max-w-[400px] md:max-w-[600px] rounded-t-full
             `}
-              src="../assets/Matheos.png"
+              src="../assets/matheos.jpg"
               alt="profile"
             />
           </div>
@@ -37,7 +37,7 @@ const Landing = ({ setSelectedPage }) => {
             className={`transition duration-200 z-10 w-full
                      max-w-[400px] md:max-w-[600px] rounded-t-full
             `}
-            src="../assets/Matheos.png"
+            src="../assets/matheos.jpg"
             alt="profile"
           />
         )}
@@ -70,24 +70,24 @@ const Landing = ({ setSelectedPage }) => {
           <p className={`mt-7 mb-4 text-[23px] text-center md:text-start`}>
             Hello! I'm MATHEOS <span className={`text-red`}>BELAY</span>{" "}
           </p>
-            <div
-              className={`text-[24px] text-red mt-3 mb-3 text-center md:text-start `}
-            >
-              I am{" "}
-              <TypeWriter
-                options={{
-                  autoStart: true,
-                  loop: true,
-                  delay: 30,
-                  strings: [
-                    "FRONTEND WEB DEVELOPER!",
-                    "MOBILE APPLICATION DEVELOPER!",
-                    "FREELANCER!",
-                    "UI/UX DESIGNER!",
-                  ],
-                }}
-              />
-            </div>
+          <div
+            className={`text-[24px] text-red mt-3 mb-3 text-center md:text-start `}
+          >
+            I am{" "}
+            <TypeWriter
+              options={{
+                autoStart: true,
+                loop: true,
+                delay: 30,
+                strings: [
+                  "FRONTEND WEB DEVELOPER!",
+                  "MOBILE APPLICATION DEVELOPER!",
+                  "FREELANCER!",
+                  "UI/UX DESIGNER!",
+                ],
+              }}
+            />
+          </div>
         </motion.div>
         {/* call to action */}
         <motion.div
