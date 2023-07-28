@@ -68,7 +68,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className={`mt-7 mb-4 text-[23px] text-center md:text-start`}>
-            Hello! I'm MATHEOS <span className={`text-red`}>BELAY</span>{" "}
+            Hello! What we  <span className={`text-red`}>Build</span>{" "}
           </p>
           <div
             className={`text-[24px] text-red mt-3 mb-3 text-center md:text-start `}
@@ -80,10 +80,9 @@ const Landing = ({ setSelectedPage }) => {
                 loop: true,
                 delay: 30,
                 strings: [
-                  "FRONTEND WEB DEVELOPER!",
-                  "MOBILE APPLICATION DEVELOPER!",
-                  "FREELANCER!",
-                  "UI/UX DESIGNER!",
+                  "RESPONSIVE WEBSITES !",
+                  "NATIVE MOBILE APPLICATION !",
+                  "UI/UX DESIGNING!",
                 ],
               }}
             />
