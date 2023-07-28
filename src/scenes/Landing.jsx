@@ -67,22 +67,21 @@ const Landing = ({ setSelectedPage }) => {
               Belay
             </span>
           </p>
-          <p className={`mt-7 mb-4 text-[23px] text-center md:text-start`}>
-            Hello! What we  <span className={`text-red`}>Build</span>{" "}
+          <p className={`mt-7 mb-4 text-[28px] text-center md:text-start`}>
+            What we  <span className={`text-red`}>Build</span>{" "}
           </p>
           <div
             className={`text-[24px] text-red mt-3 mb-3 text-center md:text-start `}
           >
-            I am{" "}
             <TypeWriter
               options={{
                 autoStart: true,
                 loop: true,
                 delay: 30,
                 strings: [
-                  "RESPONSIVE WEBSITES !",
-                  "NATIVE MOBILE APPLICATION !",
-                  "UI/UX DESIGNING!",
+                  "RESPONSIVE WEBSITES!",
+                  "NATIVE MOBILE APPLICATION!",
+                  "UI/UX DESIGNS!",
                 ],
               }}
             />
